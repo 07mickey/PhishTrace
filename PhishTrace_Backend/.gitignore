@@ -1,0 +1,26 @@
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local databases and runtime files
+instance/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/

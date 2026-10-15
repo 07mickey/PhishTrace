@@ -1,0 +1,11 @@
+services:
+  phishtrace-backend:
+    build: .
+    ports:
+      - "5055:5055"
+    environment:
+      PHISHTRACE_HOST: "0.0.0.0"
+      PHISHTRACE_PORT: "5055"
+      PHISHTRACE_DEBUG: "false"
+      PHISHTRACE_STORE_SCAN_HISTORY: "false"
+    restart: unless-stopped
